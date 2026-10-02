@@ -1,5 +1,15 @@
 # llm-wiki
 
+> [!IMPORTANT]
+> **이 저장소는 보관(archive)되어 더 이상 갱신되지 않습니다.** llm-wiki는 [Cho-D-YoungRae/superkit](https://github.com/Cho-D-YoungRae/superkit/tree/main/plugins/llm-wiki)으로 옮겼고, 이 저장소의 커밋 이력도 그대로 그곳에 있습니다.
+>
+> 설치는 superkit 마켓플레이스에서 합니다. 예전에 이 저장소를 마켓플레이스로 추가했다면 먼저 지웁니다(`/plugin marketplace remove llm-wiki`).
+>
+> ```
+> /plugin marketplace add Cho-D-YoungRae/superkit
+> /plugin install llm-wiki@superkit
+> ```
+
 LLM이 유지보수하는 개인 위키를 위한 Claude Code 플러그인.
 
 > Andrej Karpathy의 [llm-wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)에서 영감을 받아 그 패턴을 Claude Code 플러그인으로 구현했다. [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki)를 참고 구현으로 참조했다(개념 일부 차용, 아키텍처는 독자적).
